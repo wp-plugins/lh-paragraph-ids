@@ -3,7 +3,7 @@ Contributors: shawfactor
 Donate link: http://lhero.org/plugins/lh-paragraph-ids/
 Tags: paragraphs, links, html, fragment, id, indieweb, rdf
 Requires at least: 3.0
-Tested up to: 4.1
+Tested up to: 4.2
 Stable tag: trunk
 
 LH Paragraph Ids is a WordPress plugin that adds paragraph level ids elements to singular posts and post types.
