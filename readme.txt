@@ -36,5 +36,8 @@ Install manually:
 
 == Changelog ==
 
-**0.0.1 July 29, 2014**  
+**0.01 July 29, 2014**  
 Initial release.
+
+**0.02 April 29, 2015**  
+Only filter content on front end

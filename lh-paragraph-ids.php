@@ -4,11 +4,11 @@ Plugin Name: LH Paragraph IDs
 Plugin URI: http://lhero.org/plugins/lh-paragraph-ids/
 Description:  This plug-in adds a customizable, 'id' attribute to your <p> tags on singular posts. This enables links to specific paragraphs in your posts and pages.  
 Author: Peter Shaw
-Version: 0.01
+Version: 0.02
 Author URI: http://shawfactor.com
 */
 
-/*  Copyright 2013 Peter Shaw (email : pete [at] localhero [dot] biz )
+/*  Copyright 2015 Peter Shaw (email : pete [at] localhero [dot] biz )
 
     This program is free software; you can redistribute it and/or modify
     it under the terms of the GNU General Public License, version 2, as 
@@ -174,7 +174,10 @@ class lhParagraphIDs {
     */
     public function para_ids_content_filter( $content ){
 
-        if (is_singular()) {
+
+
+        if ((is_singular()) and (!is_admin()) ) {
+
             
             return $this->scan( '~<p>~', '~</p>~', $content ); 
 
