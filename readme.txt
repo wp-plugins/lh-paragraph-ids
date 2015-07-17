@@ -1,7 +1,7 @@
 === LH Paragraph Ids ===
 Contributors: shawfactor
 Donate link: http://lhero.org/plugins/lh-paragraph-ids/
-Tags: paragraphs, links, html, fragment, id, indieweb, rdf
+Tags: paragraphs, links, html, html5, fragment, id, indieweb, rdf
 Requires at least: 3.0
 Tested up to: 4.2
 Stable tag: trunk
@@ -41,3 +41,6 @@ Initial release.
 
 **0.02 April 29, 2015**  
 Only filter content on front end
+
+**1.0 July 13, 2015**  
+Object oriented code
